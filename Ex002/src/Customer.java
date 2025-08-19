@@ -1,14 +1,11 @@
 import java.util.Random;
 public class Customer {
-    /*private means that only the class itself can use this generator. It prevents other parts of the code interfering with it */
     private String name; 
     private int code;
     private String email;
-    /*private: só eu uso; static = é da classe; final= não troca.*/
     private static final Random generator = new Random();
 
     public Customer(){
-        /*min + nextInt(max - min +1); for 4 digit codes. */
         this.code = 1000 + generator.nextInt(9000);  
     }
 
