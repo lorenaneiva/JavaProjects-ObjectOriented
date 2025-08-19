@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args){
-        Bookstore obj1 = new Bookstore(); /*object instantiation */
+        Bookstore obj1 = new Bookstore();
         Bookstore obj2 = new Bookstore();
     
         obj1.title = "1984";
